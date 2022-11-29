@@ -1,0 +1,7 @@
+ERROR 2022-09-14 15:59:15,334 java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '23' for key 'employee.PRIMARY'
+ERROR 2022-09-14 16:00:13,030 java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '23' for key 'employee.PRIMARY'
+INFO  2022-09-14 16:02:52,629 com.mysql.cj.jdbc.ClientPreparedStatement: insert into employee( EmpID,EmpName,EmpAge, EmpDept ) values(34,'Deepak',22,'HR')
+INFO  2022-09-14 16:02:52,630 Succesfully inserted
+ERROR 2022-09-14 16:03:02,481 java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '34' for key 'employee.PRIMARY'
+ERROR 2022-09-14 16:03:04,744 java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '34' for key 'employee.PRIMARY'
+ERROR 2022-09-14 16:03:08,949 java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '34' for key 'employee.PRIMARY'
